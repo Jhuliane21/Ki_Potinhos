@@ -1,6 +1,23 @@
 img{
     width: 200px;
+    border-radius: 20px;
 }
 body{
     text-align: center;
+}
+nav{
+    background-color: aquamarine;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;    
+}
+nav li a:hover {
+    color: black;
+}
+nav a {
+    color: white;
+    
+    font-size: 22px;
+    text-decoration: none;
 }
